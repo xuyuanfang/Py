@@ -81,5 +81,6 @@ class GetImgUrl():
 
 
 if __name__ == '__main__':
-    a = GetImgUrl('佟丽娅',num=100)
+    name = input('input img name: ')
+    a = GetImgUrl(name,num=100)
     a.Face_Detection()
