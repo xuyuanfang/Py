@@ -84,3 +84,6 @@ if __name__ == '__main__':
     name = input('input img name: ')
     a = GetImgUrl(name,num=100)
     a.Face_Detection()
+
+
+
